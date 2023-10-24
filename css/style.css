@@ -45,6 +45,13 @@
     text-align: right;
 }
 
+.bold{
+    font-weight: bold;
+}
+
+.margin-top-40{
+    margin-top: 40px;
+}
 /* altezze */
 .altezza-300{
     height: 300px;
@@ -72,6 +79,14 @@
 .bianco{
     color: white;
 }
+
+.grigio{
+    color: rgb(209, 205, 205);
+}
+
+.rosso{
+    color: red;
+}
 /* Header */
 .altezza-header{
     height: 40px;
@@ -84,3 +99,13 @@
 .colonna-header{
     width: calc(100% / 3);
 }
+
+/* main */
+.foto-main{
+    width: 390px;
+}
+
+.prezzo-cancellato{
+    text-decoration:line-through;
+}
+

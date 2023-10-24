@@ -10,13 +10,15 @@
     margin: auto;
 }
 
-.colonna-header{
-    width: calc(100% / 3);
+.colonna{
+    width: 390px;
+    margin: auto;
 }
 
 .display-flex{
     display: flex;
     align-items:center;
+    flex-wrap: wrap;
 }
 
 .border{
@@ -31,6 +33,10 @@
     padding: 0 10px;
 }
 
+.gap-15{
+    gap: 15px;
+}
+
 .testo-centrale{
     text-align: center;
 }
@@ -38,6 +44,16 @@
 .testo-destra{
     text-align: right;
 }
+
+/* altezze */
+.altezza-300{
+    height: 300px;
+}
+.altezza-800{
+    height: 800px;
+}
+
+
 /* colori sfondo */
 .bg-arancione{
     background-color: rgb(253, 117, 5);
@@ -57,10 +73,14 @@
     color: white;
 }
 /* Header */
-.altezza-40{
+.altezza-header{
     height: 40px;
 }
 
 #logo-boolean{
    width: 30%;
+}
+
+.colonna-header{
+    width: calc(100% / 3);
 }

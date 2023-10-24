@@ -6,13 +6,12 @@
 
 /* comuni */
 .riga{
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
 }
 
 .colonna-header{
     width: calc(100% / 3);
-    height: 20px;
 }
 
 .display-flex{
@@ -22,6 +21,22 @@
 
 .border{
     border: solid 1px black;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.padding-10{
+    padding: 0 10px;
+}
+
+.testo-centrale{
+    text-align: center;
+}
+
+.testo-destra{
+    text-align: right;
 }
 /* colori sfondo */
 .bg-arancione{
@@ -36,7 +51,16 @@
     background-color: yellow;
 }
 
+/* colore */
+
+.bianco{
+    color: white;
+}
 /* Header */
 .altezza-40{
     height: 40px;
+}
+
+#logo-boolean{
+   width: 30%;
 }

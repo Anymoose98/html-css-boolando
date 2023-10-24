@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* comuni */
+.riga{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.colonna-header{
+    width: calc(100% / 3);
+    height: 20px;
+}
+
+.display-flex{
+    display: flex;
+    align-items:center;
+}
+
+.border{
+    border: solid 1px black;
+}
+/* colori sfondo */
+.bg-arancione{
+    background-color: rgb(253, 117, 5);
+}
+
+.bg-viola{
+    background-color: blueviolet;
+}
+
+.bg-giallo{
+    background-color: yellow;
+}
+
+/* Header */
+.altezza-40{
+    height: 40px;
+}

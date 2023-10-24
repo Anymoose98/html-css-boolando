@@ -115,3 +115,18 @@
     text-decoration:line-through;
 }
 
+.no-show{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.contenitore-main:hover .show{
+    display: none;
+}
+
+.contenitore-main:hover .no-show{
+    display: block;
+}

@@ -21,6 +21,22 @@
     align-items: center;
 }
 
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.bottom{
+    bottom: 80px;
+}
+
+.left{
+    left: 56px;
+}
+
 .border{
     border: solid 1px black;
 }
@@ -76,6 +92,14 @@
 
 .bg-giallo{
     background-color: yellow;
+}
+
+.bg-rosso{
+    background-color: red;
+}
+
+.bg-verde{
+    background-color: green;
 }
 
 /* colore */

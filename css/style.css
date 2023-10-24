@@ -102,6 +102,9 @@
     background-color: green;
 }
 
+.bg-bianco{
+    background-color: white;
+}
 /* colore */
 
 .bianco{
@@ -139,6 +142,12 @@
     text-decoration:line-through;
 }
 
+.posizione-cuore{
+    right: 0;
+    top: 10px;
+    font-size: 50px;
+}
+
 .no-show{
     display: none;
 }
@@ -153,4 +162,8 @@
 
 .contenitore-main:hover .no-show{
     display: block;
+}
+
+.contenitore-main:hover .posizione-cuore{
+    color: red;
 }

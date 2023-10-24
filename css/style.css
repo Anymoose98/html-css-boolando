@@ -73,6 +73,10 @@
 }
 
 /* altezze */
+
+.altezza-100{
+    height: 100px;
+}
 .altezza-300{
     height: 300px;
 }
@@ -104,6 +108,10 @@
 
 .bg-bianco{
     background-color: white;
+}
+
+.bg-nero{
+    background-color: black;
 }
 /* colore */
 
@@ -166,4 +174,16 @@
 
 .contenitore-main:hover .posizione-cuore{
     color: red;
+}
+
+/* footer */
+.colonna-footer{
+    width: 50%;
+    border: 1px solid black;
+}
+
+.flex-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }

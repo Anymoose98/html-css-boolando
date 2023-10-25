@@ -12,7 +12,7 @@
 }
 
 .colonna{
-    width: 380px;
+    width: calc(100% / 3 -15px)
 }
 
 .display-flex{
@@ -185,7 +185,7 @@ header {
     display: block;
 }
 
-.contenitore-main:hover .posizione-cuore{
+.hover-red:hover .posizione-cuore{
     color: red;
 }
 
